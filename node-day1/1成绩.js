@@ -7,8 +7,7 @@ fs.readFile('./成绩.txt', 'utf-8', function (err, result) {
     console.log(de);
     let newArr = []
     de.forEach(function (value) {
-        newArr.push(value.replace('=', ':')
-        )
+        newArr.push(value.replace('=', ':'))
         console.log(newArr);
     })
     let newStr = newArr.join('\r\n')
