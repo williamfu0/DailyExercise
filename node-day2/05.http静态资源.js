@@ -2,7 +2,7 @@
 const fs = require('fs')
 const path = require('path')
 const http = require('http')
-const e = require('express')
+
 
 //设置服务器
 const server = http.createServer()
