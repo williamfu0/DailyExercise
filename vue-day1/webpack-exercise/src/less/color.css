@@ -1,0 +1,14 @@
+ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+ul li {
+  margin: 0 auto;
+  font-size: 20px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+body {
+  background: url(../assets/logo_small.png) no-repeat center;
+  z-index: 333;
+}
