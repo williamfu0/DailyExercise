@@ -30,7 +30,7 @@ server.on('request', (req, res) => {
 
 
 //开启服务器
-server.listen(80, () => {
+server.listen(5050, () => {
 
     console.log('http静态服务器开始');
 })
